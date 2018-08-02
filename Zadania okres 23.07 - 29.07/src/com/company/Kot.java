@@ -11,5 +11,8 @@ public class Kot extends Zwierze {
         System.out.println("Jestem Kot");
     }
 //    Zadanie 3
+
+    //TODO pola powinny być prywatne
+    //TODO brak konstruktora
     RasyKotow rasa;
 }

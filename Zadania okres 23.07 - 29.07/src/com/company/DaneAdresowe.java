@@ -7,4 +7,6 @@ public class DaneAdresowe {
     private String miasto;
     private int numerTelefonu;
     private String email;
+
+    //TODO brak konstruktora
 }

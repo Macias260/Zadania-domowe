@@ -15,6 +15,7 @@ public class Ksiazka {
         this.liczbaStron = liczbaStron;
     }
 
+    //TODO metoda toString() powinna znajdować się na końcu klasy.
     @Override
     public String toString() {
         return "Książka: " + tytul + " autor: " + autor + " wydawnictwo: " + wydawnictwo + " liczba stron: " +

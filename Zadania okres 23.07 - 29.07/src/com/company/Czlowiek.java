@@ -11,6 +11,7 @@ public class Czlowiek {
 
     }
 
+    //TODO czemu nie są private ? Mogłby również trafić do konstruktora.
     Zwierze zwierze;
     DaneAdresowe daneAdresowe;
 // Zadanie 5
