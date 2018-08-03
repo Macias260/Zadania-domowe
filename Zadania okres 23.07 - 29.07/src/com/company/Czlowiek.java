@@ -11,9 +11,16 @@ public class Czlowiek {
 
     }
 
-    //TODO czemu nie są private ? Mogłby również trafić do konstruktora.
-    Zwierze zwierze;
-    DaneAdresowe daneAdresowe;
+    private Zwierze zwierze;
+    private DaneAdresowe daneAdresowe;
+
+    public Czlowiek(String imie, String nazwisko, DaneAdresowe daneAdresowe, Zwierze zwierze){
+
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.daneAdresowe = daneAdresowe;
+        this.zwierze = zwierze;
+    }
 // Zadanie 5
     public void introduce() {
 

@@ -11,8 +11,10 @@ public class Kot extends Zwierze {
         System.out.println("Jestem Kot");
     }
 //    Zadanie 3
+     private RasyKotow rasa;
+    public Kot(String imie, int wiek, RasyKotow rasa){
+        super(imie, wiek);
+        this.rasa = rasa;
 
-    //TODO pola powinny być prywatne
-    //TODO brak konstruktora
-    RasyKotow rasa;
+    }
 }

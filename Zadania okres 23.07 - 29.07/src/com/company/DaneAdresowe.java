@@ -8,5 +8,15 @@ public class DaneAdresowe {
     private int numerTelefonu;
     private String email;
 
-    //TODO brak konstruktora
+    public DaneAdresowe(String ulica, String numerDomu, String kodPocztowy, String miasto, int numerTelefonu,
+                        String email){
+
+
+        this.ulica = ulica;
+        this.numerDomu = numerDomu;
+        this.kodPocztowy = kodPocztowy;
+        this.miasto = miasto;
+        this.numerTelefonu = numerTelefonu;
+        this.email = email;
+    }
 }

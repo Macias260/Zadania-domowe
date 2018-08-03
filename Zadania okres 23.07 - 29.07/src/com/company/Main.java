@@ -28,11 +28,14 @@ public class Main {
 
 //        Zadanie 4
 
-        Czlowiek czlowiek1 = new Czlowiek("Władimir", "Putin");
-        Czlowiek czlowiek2 = new Czlowiek("Donald", "Trump");
+        DaneAdresowe dane1 = new DaneAdresowe("biała","11b/2", "456-487","Moskwa"
+                , 7484897, "wlad.put-in@gmail.com");
+        Czlowiek czlowiek1 = new Czlowiek("Władimir", "Putin", dane1, pies);
+        DaneAdresowe dane2 = new DaneAdresowe("kapitalistyczna","112","114894-7",
+                "Waszyngton D.C.", 48648, "Trump.hump@gmail.com");
+        Czlowiek czlowiek2 = new Czlowiek("Donald", "Trump", dane2, kot);
 
-        czlowiek1.zwierze = pies;
-        czlowiek2.zwierze = kot;
+
 //         Zadanie 5
         czlowiek1.introduce();
         czlowiek2.introduce("Kocham zwierzęta");

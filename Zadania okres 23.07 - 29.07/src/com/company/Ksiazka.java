@@ -7,7 +7,6 @@ public class Ksiazka {
     private int liczbaStron;
 
 
-
     public Ksiazka(String tytul, String autor, String wydawnictwo, int liczbaStron) {
         this.tytul = tytul;
         this.autor = autor;
@@ -15,12 +14,6 @@ public class Ksiazka {
         this.liczbaStron = liczbaStron;
     }
 
-    //TODO metoda toString() powinna znajdować się na końcu klasy.
-    @Override
-    public String toString() {
-        return "Książka: " + tytul + " autor: " + autor + " wydawnictwo: " + wydawnictwo + " liczba stron: " +
-                liczbaStron;
-    }
 
     public void setLiczbaStron(int liczbaStron) {
         this.liczbaStron = liczbaStron;
@@ -29,6 +22,12 @@ public class Ksiazka {
     public int getLiczbaStron() {
         return liczbaStron;
 
+    }
+
+    @Override
+    public String toString() {
+        return "Książka: " + tytul + " autor: " + autor + " wydawnictwo: " + wydawnictwo + " liczba stron: " +
+                liczbaStron;
     }
 
 

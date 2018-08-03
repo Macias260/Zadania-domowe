@@ -12,9 +12,13 @@ public class Pies extends Zwierze {
     }
 //    Zadanie 3
 
-    //TODO pola powinny być prywatne
-    //TODO brak konstruktora
-    RasyPsow rasa;
+    private RasyPsow rasa;
+
+    public Pies(String imie, int wiek, RasyPsow rasa){
+        super(imie, wiek);
+        this.rasa = rasa;
+
+    }
 
 
 }
